@@ -7,7 +7,10 @@ const App = () => {
     <div>
       <Navbar/>
       <FloatingContactIcons />
-      <p>Under Working</p>
+      <div className="flex items-center justify-center h-screen">
+  <p className="text-center font-medium text-7xl">Under Working</p>
+</div>
+
     </div>
   )
 }
