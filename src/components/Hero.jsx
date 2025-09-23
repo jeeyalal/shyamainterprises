@@ -139,7 +139,7 @@ const Hero = () => {
             <motion.div
                 initial={{ opacity: 0, y: 40 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 2.5 }}
+                transition={{ duration: 0.6, delay: 1.9 }}
                 viewport={{ once: true }}
                 className="mx-5 mt-13 rounded-2xl bg-gradient-to-r from-[#5044E5] to-[#4d8cea] text-white py-10 shadow-lg sm:w-4/5 lg:w-1/2 lg:mx-auto"
             >
